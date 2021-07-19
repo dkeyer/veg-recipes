@@ -1,7 +1,40 @@
 h1 {
     background-color: aqua;
+    font-weight: bolder;
+    color: darkred;
 }
 h3 {
     background-color: bisque;
     letter-spacing: 1px;
+    text-align: center;
 }
+h4{
+    background-color: lightseagreen;
+}
+
+.ingredients{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro{
+    font-size: 24px;
+}
+
+.descrip{
+    font-weight: bold;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    
+}
+
+.pic{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: right;
+}
+
+.recipes{
+    display: flex;
+}
+
+@media 
