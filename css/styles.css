@@ -1,5 +1,4 @@
 h1 {
-    background-color: aqua;
     font-weight: bolder;
     color: darkred;
 }
@@ -33,4 +32,22 @@ h4{
     text-align: right;
 }
 
-@media only screen and (min-width: 480px)
+.intro_pic{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: right;
+}
+
+@media screen and (min-width: 480px){
+
+
+}
+
+@media screen and (min-width: 768px){
+    .descrip{background: green;}
+}
+
+@media screen and (min-width:1024px){
+    .descrip{background:pink}
+}
