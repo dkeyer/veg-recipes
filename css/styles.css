@@ -1,22 +1,41 @@
 h1 {
     font-weight: bolder;
-    color: darkred;
+    color: blue;
 }
 h3 {
     background-color: bisque;
     letter-spacing: 1px;
     text-align: center;
 }
-.prep{
-    
+
+h4{
+    background-color: bisque;
+}
+
+.title {
+    background-color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.10rem;
+    text-align: center;
 }
 
 .ingredients{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
 }
 
 .intro{
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro-pic{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: right;
 }
 
 .descrip{
@@ -41,12 +60,28 @@ h3 {
     background-color: gray;
     display: flex;
     flex-direction: column;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.recipeContainer{
+    display: flex;
+    flex-direction: column;
 }
 
 .instructions{
     display: flex;
     flex-direction: column;
 }
+
+.contactTitle{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
 
 
 
@@ -56,7 +91,7 @@ h3 {
 }
 
 @media screen and (min-width: 768px){
-    .descrip{background: green;}
+    .descrip{}
     
     .recipe{
         flex-direction: column;
@@ -70,13 +105,20 @@ h3 {
         justify-content: space-around;
     }
 
+    #contact{
+        max-width: 50%;
+    }
+
 }
 
 @media screen and (min-width:1024px){
-    .descrip{background:pink}
+    .descrip{
+        flex-direction: column;
+    }
     .recipe{
         flex-direction: row;
         justify-content: space-around;
+        
     }
 
     .recipeHeader{
@@ -87,6 +129,10 @@ h3 {
         flex-direction: row;
         flex-grow: 2;
         justify-content: space-around;
+    }
+
+    #contact{
+        max-width: 30%;
     }
 }
 
@@ -106,3 +152,10 @@ h3 {
 button {
     color: blue;
 }
+
+#contact{
+    display: grid;
+    gap: 0.5rem;
+
+}
+

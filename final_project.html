@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>Dave's Recipes</h1>
+    <h1 class="title">Dave's Recipes</h1>
     <img class="intro_pic" src="heron.jpg" width="100" length="100" />
-    <p class="intro">Enjoy the recipes!</p>
+    <p class="intro">I have developed these recipes myself and am thrilled to share them with you. Please consider giving feedback via the contact form!</p>
+    <div class="recipeContainer">
     <div class="recipe">
         <div class="recipeHeader">
             <h3>First recipe</h3>
@@ -57,7 +58,7 @@
     </ul>
     </div>
     <div>
-    <h4>Place holder</h4>
+    <h4>To Prepare the Food...</h4>
     <ol>
       <li>Step 1</li>
       <li>Step 2</li>
@@ -67,22 +68,93 @@
     </div>
     </div>
     </div>
-    <script src="js/script.js"></script>
-    <div class="contact-form">
-        <h1>Contact Us</h1>
-        <p>Let us know which recipe is your favorite</p>
+
+    <div class="recipe">
+        <div class="recipeHeader">
+    <h3>Third recipe</h3>
+    <img class="pic" src="heron.jpg" width="100" length="100" />
+    <p class="descrip">Recipe description...</p>
     </div>
-    <form>
-        <div class="style-form">
-        <label>Your email</label>
+    <div class="instructions">
+    <div>
+    <h4>Ingredients</h4>
+    <ul class="ingredients">
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+      <li>four</li>
+      <li>five</li>
+    </ul>
+    </div>
+    <div>
+    <h4>To Prepare the Food...</h4>
+    <ol>
+      <li>Step 1</li>
+      <li>Step 2</li>
+      <li>Step 3</li>
+      <li>Step 4</li>
+    </ol>
+    </div>
+    </div>
+    </div>
+
+    <div class="recipe">
+        <div class="recipeHeader">
+    <h3>Fourth recipe</h3>
+    <img class="pic" src="heron.jpg" width="100" length="100" />
+    <p class="descrip">Recipe description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel turpis in ipsum placerat hendrerit. Fusce posuere eu dolor non condimentum. Maecenas in ornare nisi, id dignissim sapien.</p>
+    </div>
+    <div class="instructions">
+    <div>
+    <h4>Ingredients</h4>
+    <ul class="ingredients">
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+      <li>four</li>
+      <li>five</li>
+    </ul>
+    </div>
+    <div>
+    <h4>To Prepare the Food...</h4>
+    <ol>
+      <li>Step 1</li>
+      <li>Step 2</li>
+      <li>Step 3</li>
+      <li>Step 4</li>
+    </ol>
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+    <div class="contact-form">
+        <h1 class="contactTitle">Contact us</h1>
+        <p>Let us know which recipe is your favorite</p>
+    
+    <form onsubmit="validateForm(); return false" id="contact">
+        
+        <label for="emailInput">Your email</label>
         <input type="text"
         placeholder="Your email here"
-        class=""
-        email="email"
+        id="emailInput"
         />
-        <div class="hide">Please enter a valid email</div>
-        </div>
-        <button>Submit</button>
+        <label for="message">Message</label>
+        <textarea
+        placeholder="Write your message here"
+        id="message"
+        rows="5"></textarea>
+        
+    
+        <button type="submit">Submit</button>
+    </div>
     </form>
+    <script src="js/script.js"></script>
+    <div class="topnav">
+
+
+
+    </div>
   </body>
 </html>
