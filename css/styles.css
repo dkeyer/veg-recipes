@@ -2,9 +2,8 @@ h1 {
     font-weight: bolder;
     color: blue;
 }
-h3 {
-    background-color: bisque;
-    letter-spacing: 1px;
+h2 {
+    color: white;
     text-align: center;
 }
 
@@ -46,7 +45,9 @@ label{
 .descrip{
     font-weight: bold;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  
 }
 
 .pic{
@@ -55,6 +56,9 @@ label{
     display: block;
     text-align: right;
     color-scheme: pink;
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
 }
 
 .wrap{
@@ -121,6 +125,10 @@ label{
         max-width: 50%;
     }
 
+    body{
+        margin: 0 2rem;
+    }
+
 }
 
 @media screen and (min-width:1024px){
@@ -166,7 +174,7 @@ label{
         height: 100%;
         top: 0px;
         left: 0px;
-        background: rgba(0,0,0,0.20);
+        background: rgba(0,0,0,0.5);
         z-index: 10;
     }
 
