@@ -1,6 +1,6 @@
 h1 {
     font-weight: bolder;
-    color: blue;
+    text-decoration: underline;
 }
 h2 {
     color: white;
@@ -8,7 +8,7 @@ h2 {
 }
 
 h4{
-    background-color: bisque;
+    color: white;
 }
 
 label{
@@ -17,9 +17,8 @@ label{
 }
 
 .title {
-    background-color: #68829e;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 0.10rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05rem;
     text-align: center;
 }
 
@@ -97,6 +96,9 @@ label{
     text-decoration: underline;
 }
 
+body{
+    padding: 5px 10px 15px 20px;
+}
 
 
 

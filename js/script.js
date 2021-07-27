@@ -3,7 +3,7 @@ const form = document.querySelector("form");
 const recipes = [
   {
     name: "First Recipe",
-    description: "Recipe Description",
+    description: "Recipe Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis, tortor a ultrices imperdiet, purus sapien faucibus ante, vitae scelerisque.",
     image: "heron.jpg",
     ingredients: [
       "one",
@@ -22,7 +22,7 @@ const recipes = [
 
   {
     name: "Second Recipe",
-    description: "Recipe Description",
+    description: "Recipe Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis, tortor a ultrices imperdiet, purus sapien faucibus ante, vitae scelerisque.",
     image: "heron.jpg",
     ingredients: [
       "one",
@@ -40,7 +40,7 @@ const recipes = [
   },
   {
     name: "Third Recipe",
-    description: "Recipe Description",
+    description: "Recipe Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis, tortor a ultrices imperdiet, purus sapien faucibus ante, vitae scelerisque.",
     image: "heron.jpg",
     ingredients: [
       "one",
@@ -58,7 +58,7 @@ const recipes = [
   },
   {
     name: "Fourth Recipe",
-    description: "Recipe Description",
+    description: "Recipe Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis, tortor a ultrices imperdiet, purus sapien faucibus ante, vitae scelerisque.",
     image: "heron.jpg",
     ingredients: [
       "one",
