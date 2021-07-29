@@ -73,7 +73,7 @@ label{
 
 .recipe:nth-child(odd) {
     background-color: #626d71;
-    color: #CDCDC0;
+    color: #DDBC95;
 }
 
 .recipe:nth-child(even) {

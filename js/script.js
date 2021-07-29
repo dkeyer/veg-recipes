@@ -76,6 +76,7 @@ const recipes = [
   },
 ];
 
+
 const displayRecipes = () => {
     let container = document.getElementById("recipeContainer")
 
