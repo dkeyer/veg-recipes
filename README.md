@@ -8,7 +8,7 @@ CSS Requirements:
 
 Flexbox - I used flexbox to organize content based on mobile, tablet, and desktop views. The layout moves from one column (mobile), to two columns (tablet), to three columns (desktop)
 
--nth Child - I used -nth child to style my recipe cards so that the evens have one color scheme, and the odds have another
+-nth Child - I used -nth child to style my recipe cards so that the evens have one styling scheme, and the odds have another
 
 Javascript Requirements:
 
